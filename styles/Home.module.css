@@ -1,0 +1,260 @@
+.body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #e5ddd5;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100vh;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.header {
+  text-align: center;
+  padding: 10px;
+  background-color: #b0b4ac;
+  color: white;
+}
+
+.chatWindow {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 20px;
+  background-color: #e5ddd5;
+}
+
+.chatBubbleUser {
+  width: 100%;
+  align-self: flex-end;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+.textarea {
+  width: 100%;
+  resize: vertical;
+  height: 80px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #b0b4ac;
+  color: black;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ffffff;
+}
+
+.topIssuesHeader {
+  font-size: 1.5em;
+  color: #075e54;
+  margin-bottom: 15px;
+}
+
+.topIssue {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  background-color: #dcf8c6;
+  border-radius: 8px;
+}
+
+.topIssue h3 {
+  margin: 0 0 5px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.topIssue p {
+  margin: 0;
+  font-size: 1em;
+  color: #555;
+}
+
+.stepsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.step {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.step h4 {
+  font-size: 1.1em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.step p {
+  margin: 0;
+  font-size: 0.95em;
+}
+
+.searchResult {
+  margin-top: 10px;
+}
+
+.searchResult p {
+  font-size: 1em;
+  line-height: 1.5;
+  color: #444;
+}
+
+.noResult {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.noResult p {
+  font-size: 1em;
+  line-height: 1.5;
+  color: #444;
+}
+
+.noResult button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #0070f3;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.noResult button:hover {
+  background-color: #005bb5;
+}
+
+.feedbackContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feedbackContainer p {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.feedbackContainer .button {
+  margin: 5px;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 80%;
+  max-width: 600px;
+  height: 70vh; /* Menambahkan tinggi */
+  max-height: 80vh; /* Menambahkan tinggi maksimum */
+  overflow-y: auto; /* Scrollable jika konten melebihi tinggi maksimum */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.popupContent {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.closeButton {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #b0b4ac;
+  color: black;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.closeButton:hover {
+  background-color: #ffffff;
+}
+
+.callHelpdesk {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.callHelpdesk p {
+  font-size: 1em;
+  line-height: 1.5;
+  color: #444;
+}
+
+.callHelpdesk .button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #0070f3;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.callHelpdesk .button:hover {
+  background-color: #005bb5;
+}
