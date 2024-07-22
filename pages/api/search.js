@@ -1,6 +1,11 @@
 import { preprocessQuery, tokenize, removeStopwords } from '../../lib/nlp';
 import { readCSV } from '../../lib/csv';
 
+/**
+ * Handler API untuk mencari masalah berdasarkan kategori, subkategori, dan query
+ * @param {Object} req - Objek permintaan (request)
+ * @param {Object} res - Objek respons (response)
+ */
 export default async function handler(req, res) {
   const { category, subcategory, query } = req.query;
 

@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react';
 import styles from '../styles/Home.module.css';
 
+/**
+ * Komponen utama untuk aplikasi Chatbot Service Desk.
+ */
 const Home = () => {
   const [issues, setIssues] = useState([]);
   const [query, setQuery] = useState('');
@@ -12,6 +15,9 @@ const Home = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
   const [selectedIssue, setSelectedIssue] = useState(null);
 
+  /**
+   * useEffect untuk mengambil data awal: masalah teratas dan kategori.
+   */
   useEffect(() => {
     fetch('/api/issues')
       .then(res => res.json())
@@ -35,10 +41,19 @@ const Home = () => {
       });
   }, []);
 
+  /**
+   * Fungsi untuk menangani perubahan input query.
+   * @param {Object} e - Event input
+   */
   const handleQueryChange = (e) => {
     setQuery(e.target.value);
   };
 
+  /**
+   * Fungsi untuk mengambil subkategori berdasarkan kategori.
+   * @param {string} category - Kategori yang dipilih
+   * @returns {Array} - Daftar subkategori
+   */
   const fetchSubcategories = async (category) => {
     try {
       const res = await fetch(`/api/subcategories?category=${encodeURIComponent(category)}`);
@@ -49,6 +64,10 @@ const Home = () => {
     }
   };
 
+  /**
+   * Fungsi untuk menangani submit form pencarian.
+   * @param {Object} e - Event submit
+   */
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!selectedCategory || !selectedSubCategory) {
@@ -105,11 +124,18 @@ const Home = () => {
     }
   };
 
+  /**
+   * Fungsi untuk membuka pop-up dengan solusi masalah yang dipilih.
+   * @param {Object} issue - Masalah yang dipilih
+   */
   const openPopup = (issue) => {
     setSelectedIssue(issue);
     setIsPopupOpen(true);
   };
 
+  /**
+   * Fungsi untuk menutup pop-up.
+   */
   const closePopup = () => {
     setIsPopupOpen(false);
     setSelectedIssue(null);

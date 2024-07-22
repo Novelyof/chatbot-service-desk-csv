@@ -1,5 +1,10 @@
 import { readCSV } from '../../lib/csv';
 
+/**
+ * Handler API untuk mendapatkan daftar subkategori berdasarkan kategori
+ * @param {Object} req - Objek permintaan (request)
+ * @param {Object} res - Objek respons (response)
+ */
 export default async function handler(req, res) {
   const { category } = req.query;
 

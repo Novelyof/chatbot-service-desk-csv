@@ -1,5 +1,10 @@
 import { readCSV } from '../../lib/csv';
 
+/**
+ * Handler API untuk mendapatkan daftar kategori
+ * @param {Object} req - Objek permintaan (request)
+ * @param {Object} res - Objek respons (response)
+ */
 export default async function handler(req, res) {
   try {
     const categories = await readCSV('data/categories.csv');
