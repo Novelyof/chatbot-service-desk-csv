@@ -1,50 +1,26 @@
-import { preprocessQuery, tokenize, removeStopwords } from '../../lib/nlp';
-import { readCSV } from '../../lib/csv';
+import path from 'path';
+import { matchIssue } from '../../lib/matcher';
 
-/**
- * Handler API untuk mencari masalah berdasarkan kategori, subkategori, dan query
- * @param {Object} req - Objek permintaan (request)
- * @param {Object} res - Objek respons (response)
- */
 export default async function handler(req, res) {
   const { category, subcategory, query } = req.query;
 
-  if (!category || !subcategory || !query) {
-    console.error('Missing category, subcategory, or query');
-    return res.status(400).json({ error: 'Category, subcategory, and query are required' });
-  }
+  console.log('--- Search API Request Received ---');
+  console.log('Category:', category);
+  console.log('Subcategory:', subcategory);
+  console.log('User Query:', query);
 
   try {
-    const issues = await readCSV('data/issues.csv');
-    console.log('Fetched issues:', issues);
-
-    const preprocessedQuery = preprocessQuery(query);
-    console.log('Preprocessed Query:', preprocessedQuery);
-
-    const tokens = tokenize(preprocessedQuery);
-    console.log('Tokens:', tokens);
-
-    const filteredTokens = removeStopwords(tokens);
-    console.log('Filtered Tokens:', filteredTokens);
-
-    const queryString = filteredTokens.join(' ');
-    console.log('Query String:', queryString);
-
-    const matchedIssue = issues.find(issue =>
-      issue.category_id === category &&
-      issue.subcategory_id === subcategory &&
-      filteredTokens.every(token => issue.issue_detail.toLowerCase().includes(token))
-    );
+    const filePath = path.join(process.cwd(), 'data', 'issues.csv');
+    const matchedIssue = await matchIssue(query, filePath, subcategory);
 
     if (matchedIssue) {
-      console.log('Matched Issue:', matchedIssue);
       res.status(200).json({ matchedIssue });
     } else {
-      console.log('No matching issue found');
-      res.status(200).json({ matchedIssue: null });
+      res.status(404).json({ error: 'No matching issues found.' });
     }
   } catch (error) {
-    console.error('Error fetching issues:', error);
-    res.status(500).json({ error: 'Error fetching issues' });
+    console.error('Error during search:', error);
+    res.status(500).json({ error: 'Error processing search.' });
   }
 }
+

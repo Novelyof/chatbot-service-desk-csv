@@ -1,9 +1,6 @@
 import { useState, useEffect } from 'react';
 import styles from '../styles/Home.module.css';
 
-/**
- * Komponen utama untuk aplikasi Chatbot Service Desk.
- */
 const Home = () => {
   const [issues, setIssues] = useState([]);
   const [query, setQuery] = useState('');
@@ -15,9 +12,6 @@ const Home = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
   const [selectedIssue, setSelectedIssue] = useState(null);
 
-  /**
-   * useEffect untuk mengambil data awal: masalah teratas dan kategori.
-   */
   useEffect(() => {
     fetch('/api/issues')
       .then(res => res.json())
@@ -41,19 +35,10 @@ const Home = () => {
       });
   }, []);
 
-  /**
-   * Fungsi untuk menangani perubahan input query.
-   * @param {Object} e - Event input
-   */
   const handleQueryChange = (e) => {
     setQuery(e.target.value);
   };
 
-  /**
-   * Fungsi untuk mengambil subkategori berdasarkan kategori.
-   * @param {string} category - Kategori yang dipilih
-   * @returns {Array} - Daftar subkategori
-   */
   const fetchSubcategories = async (category) => {
     try {
       const res = await fetch(`/api/subcategories?category=${encodeURIComponent(category)}`);
@@ -64,10 +49,6 @@ const Home = () => {
     }
   };
 
-  /**
-   * Fungsi untuk menangani submit form pencarian.
-   * @param {Object} e - Event submit
-   */
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!selectedCategory || !selectedSubCategory) {
@@ -85,17 +66,7 @@ const Home = () => {
 
       if (data.error) {
         setResponse(data.error);
-      } else if (!data.matchedIssue) {
-        setResponse(
-          <div className={styles.noResult}>
-            <p>No matching issues found.</p>
-            <p>If the solution not working, please call our helpdesk team for further assistance.</p>
-            <button className={styles.button} onClick={() => alert('Calling helpdesk...')}>
-              Call Helpdesk
-            </button>
-          </div>
-        );
-      } else {
+      } else if (data.matchedIssue) {
         const { matchedIssue } = data;
         const steps = Object.keys(matchedIssue)
           .filter(key => key.startsWith('step') && matchedIssue[key])
@@ -110,6 +81,21 @@ const Home = () => {
                 <p>{step}</p>
               </div>
             ))}
+            <div className={styles.callHelpdesk}> 
+              <p>If the solution not working, please call our helpdesk team for further assistance.</p>
+              <button className={styles.button} onClick={() => alert('Calling helpdesk...')}>
+                Call Helpdesk
+              </button>
+            </div>
+          </div>
+        );
+      } else if (data.openAIResponse) {
+        setResponse(
+          <div className={styles.searchResult}>
+            <p>OpenAI suggests the following solution:</p>
+            <div className={styles.step}>
+              <p>{data.openAIResponse}</p>
+            </div>
             <div className={styles.callHelpdesk}>
               <p>If the solution not working, please call our helpdesk team for further assistance.</p>
               <button className={styles.button} onClick={() => alert('Calling helpdesk...')}>
@@ -118,24 +104,27 @@ const Home = () => {
             </div>
           </div>
         );
+      } else {
+        setResponse(
+          <div className={styles.noResult}>
+            <p>No matching issues found.</p>
+            <p>If the solution not working, please call our helpdesk team for further assistance.</p>
+            <button className={styles.button} onClick={() => alert('Calling helpdesk...')}>
+              Call Helpdesk
+            </button>
+          </div>
+        );
       }
     } catch (error) {
       setResponse('An error occurred while fetching data. Please try again later.');
     }
   };
 
-  /**
-   * Fungsi untuk membuka pop-up dengan solusi masalah yang dipilih.
-   * @param {Object} issue - Masalah yang dipilih
-   */
   const openPopup = (issue) => {
     setSelectedIssue(issue);
     setIsPopupOpen(true);
   };
 
-  /**
-   * Fungsi untuk menutup pop-up.
-   */
   const closePopup = () => {
     setIsPopupOpen(false);
     setSelectedIssue(null);

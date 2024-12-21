@@ -1,0 +1,41 @@
+id,issue_detail,category_id,subcategory_id,frequency,step1,step2,step3,step4,step5
+1,Wi-Fi not connecting,3,1,20,Restart the router (ask IT support).,Reconnect to the network.,Update wireless drivers.,Check router settings (via IT support).,Reset the network.
+2,Bluetooth not pairing,3,2,15,Ensure Bluetooth is enabled.,Restart both devices.,Update Bluetooth drivers.,Remove paired devices and re-pair.,Check for interference.
+3,Email not syncing,3,3,14,Check email server settings.,Update email client.,Restart the application.,Check internet connection.,Contact email provider.
+4,VoIP call quality poor,3,4,10,Check internet speed.,Use a wired connection.,Restart VoIP application.,Close unnecessary apps.,Contact support.
+5,Chat application not sending messages,3,5,12,Check internet connection.,Restart the application.,Update the app.,Clear app cache.,Contact support.
+6,Wi-Fi disconnects frequently,3,1,16,Restart the router (ask IT support).,Change Wi-Fi channel (via IT support).,Update router firmware (via IT support).,Move closer to the router.,Replace the router (via IT support).
+7,Bluetooth audio lagging,3,2,13,Check battery levels.,Update Bluetooth drivers.,Reduce distance to the device.,Disable unused Bluetooth devices.,Contact support.
+8,Email sending failed,3,3,10,Check recipient email address.,Check SMTP settings.,Restart email client.,Contact email provider.,Use another device.
+9,Video call connection dropping,3,4,12,Check internet speed.,Update video call application.,Restart the device.,Switch to a wired connection.,Contact support.
+10,Group chat notifications delayed,3,5,8,Check app notification settings.,Update the application.,Restart the device.,Clear app cache.,Contact support.
+11,Network cable unplugged error,3,1,9,Check cable connection.,Restart the router (ask IT support).,Replace the cable (via IT support).,Check network adapter.,Contact support.
+12,Bluetooth device keeps disconnecting,3,2,11,Update Bluetooth drivers.,Reconnect the device.,Check battery levels.,Disable power-saving mode.,Replace the device.
+13,Emails marked as spam,3,3,7,Check email filters.,Whitelist the sender.,Contact email provider.,Update email client.,Request sender to resend.
+14,VoIP app not opening,3,4,6,Restart the device.,Reinstall the app.,Check app permissions.,Update the app.,Contact support.
+15,Slow upload speed,3,1,14,Check internet plan.,Restart the router.,Update network drivers.,Close background uploads.,Contact support.
+16,Unable to join video conference,3,4,9,Check meeting link.,Update video conferencing app.,Restart the system.,Check camera and mic permissions.,Contact host.
+17,Emails duplicating in inbox,3,3,8,Restart the email client.,Check account settings.,Remove and re-add the account.,Update the client.,Contact email provider.
+18,Push notifications not working,3,5,10,Check app settings.,Update the app.,Restart the device.,Clear app cache.,Reinstall the app.
+19,Slow browsing speed,3,1,12,Restart the router.,Clear browser cache.,Use a different browser.,Check for malware.,Contact support.
+20,Bluetooth file transfer failed,3,2,7,Ensure devices are discoverable.,Restart Bluetooth.,Update Bluetooth drivers.,Reduce file size.,Contact support.
+21,No incoming calls on VoIP,3,4,6,Check Do Not Disturb settings.,Restart the app.,Check internet connection.,Update the app.,Contact support.
+22,Wi-Fi password not accepted,3,1,11,Ensure correct password.,Restart the router (ask IT support).,Forget and re-add network.,Check router settings (via IT support).,Contact support.
+23,Unable to receive emails,3,3,8,Check internet connection.,Update email client.,Check email server settings.,Contact provider.,Clear email cache.
+24,Voice call drops suddenly,3,4,10,Check internet speed.,Restart the app.,Update the app.,Close background apps.,Contact support.
+25,Message delivery delayed,3,5,9,Check network connection.,Update the app.,Restart the app.,Clear app cache.,Contact support.
+26,Wi-Fi speed fluctuating,3,1,13,Restart the router (ask IT support).,Check for interference.,Update router firmware (via IT support).,Use a different channel (via IT support).,Contact support.
+27,Bluetooth keyboard not typing,3,2,8,Check battery levels.,Reconnect the keyboard.,Update Bluetooth
+28,Wi-Fi connected but no internet,3,1,16,Restart the router (ask IT support).,Check ISP status.,Reset network adapter.,Update wireless drivers.,Contact support.
+29,Bluetooth mouse lags,3,2,9,Replace batteries.,Reconnect the mouse.,Update Bluetooth drivers.,Disable unused Bluetooth devices.,Contact support.
+30,Emails stuck in outbox,3,3,12,Check internet connection.,Restart email client.,Check SMTP settings.,Clear outbox folder.,Contact provider.
+31,VoIP call volume too low,3,4,10,Increase system volume.,Check app volume settings.,Use headphones.,Restart the app.,Contact support.
+32,Chat app not loading,3,5,8,Check internet connection.,Restart the app.,Update the app.,Clear app cache.,Reinstall the app.
+33,Wi-Fi signal weak,3,1,14,Move closer to the router.,Remove obstacles.,Update router firmware (via IT support).,Add a Wi-Fi extender (via IT support).,Contact support.
+34,Bluetooth speaker not detected,3,2,10,Turn on speaker.,Check pairing mode.,Restart the device.,Update Bluetooth drivers.,Contact support.
+35,Emails taking too long to load,3,3,7,Check internet speed.,Clear email cache.,Restart email client.,Update the client.,Contact provider.
+36,VoIP app crashing,3,4,9,Restart the system.,Update the app.,Clear app cache.,Reinstall the app.,Contact support.
+37,Chat app not receiving messages,3,5,6,Check notification settings.,Restart the app.,Update the app.,Check internet connection.,Contact support.
+38,Wi-Fi limited access,3,1,11,Forget and reconnect network.,Check for IP conflicts.,Restart router and device (ask IT support).,Update network drivers.,Contact support.
+39,Bluetooth headphones disconnect during calls,3,2,10,Check battery levels.,Reconnect headphones.,Update Bluetooth drivers.,Disable unused Bluetooth devices.,Contact support.
+40,Emails missing in inbox,3,3,9,Check email filters.,Search in all folders.,Restart email client.,Contact provider.,Update email settings.

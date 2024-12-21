@@ -1,12 +1,17 @@
 id,category_id,name
-1,1,Keyboard
-2,1,Mouse
-3,2,Microsoft Word
-4,1,Printer
-5,1,Wi-Fi
-6,1,Bluetooth
-7,2,Performance
-8,2,Email
-9,1,Display
-10,1,Storage
-11,2,Touchscreen
+1,1,Keyboard Issues
+2,1,Mouse Issues
+3,2,Word Processing Issues
+4,1,Printer Issues
+5,1,Wi-Fi Issues
+6,1,Bluetooth Issues
+7,2,Performance Issues
+8,2,Email Issues
+9,1,Display Issues
+10,1,External Drive Issues
+11,2,Touchscreen Issues
+12,3,Internet Connection
+13,3,Email Communication
+14,3,Video Conferencing Tools
+15,3,Messaging Apps
+16,3,VoIP/Phone Issues

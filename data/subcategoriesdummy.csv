@@ -1,0 +1,27 @@
+id,category_id,name
+1,1,Power Issues
+2,1,Display Issues
+3,1,Storage Issues
+4,1,Input Devices
+5,1,Cooling System
+6,1,Ports and Connectivity
+7,1,Peripheral Devices
+8,1,Battery Issues
+9,1,Overheating
+10,1,Audio Issues
+11,1,Networking Issues
+12,1,Touchpad
+13,1,Graphics and Video
+14,1,External Accessories
+15,11,System Performance
+1,3,Wi-Fi Issues
+2,3,Bluetooth Issues
+3,3,Email Issues
+4,3,VoIP Issues
+5,3,Chat Applications
+1,2,Application Performance
+2,2,Operating System
+3,2,Internet and Browsing
+4,2,Security and Licensing
+5,2,System Errors
+6,2,Backup and Storage
