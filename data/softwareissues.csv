@@ -1,36 +1,31 @@
 id,issue_detail,category_id,subcategory_id,frequency,step1,step2,step3,step4,step5
-1,Application not responding,2,1,18,End task using Task Manager.,Restart the application.,Check for updates.,Reinstall the application.,Run diagnostics tool.
-2,OS update stuck,2,2,11,Restart the computer.,Check disk space.,Run update troubleshooter.,Reset update components.,Reinstall the OS.
-3,Error 404 when browsing,2,3,15,Check website URL.,Clear browser cache.,Reset network settings.,Change DNS settings.,Contact support.
-4,Antivirus not updating,2,4,10,Check internet connection.,Restart antivirus software.,Update manually.,Reinstall antivirus.,Contact support.
-5,Blue screen error,2,5,12,Restart the computer.,Run memory diagnostics.,Check for driver updates.,Check disk health.,Reinstall the OS.
-6,Printer driver not found,2,6,8,Download latest driver.,Install driver manually.,Restart the printer.,Run troubleshooter.,Contact support.
-7,App crashing after update,2,1,7,Uninstall updates.,Reinstall the app.,Update the OS.,Check for compatibility issues.,Contact support.
-8,OS installation error,2,2,9,Check installation media.,Ensure sufficient disk space.,Run disk check.,Restart the installation.,Contact support.
-9,Password reset not working,2,3,12,Check email spam folder.,Ensure correct username.,Request a new reset link.,Use alternate recovery options.,Contact support.
-10,Slow application performance,2,1,14,Close unnecessary apps.,Clear app cache.,Update the application.,Check system resources.,Upgrade hardware.
-11,VPN not connecting,2,3,10,Check internet connection.,Update VPN software.,Try a different server.,Disable firewall temporarily.,Contact support.
-12,Licensing issue in software,2,4,8,Check license key validity.,Re-enter license key.,Contact software vendor.,Reinstall software.,Check for updates.
-13,File not saving properly,2,1,9,Check file permissions.,Save in a different location.,Ensure sufficient storage.,Update the software.,Run file repair tools.
-14,Corrupted system file,2,5,10,Run SFC tool.,Perform a DISM scan.,Check disk health.,Restore from backup.,Reinstall the OS.
-15,Firewall blocking an app,2,4,6,Allow the app in firewall settings.,Disable firewall temporarily.,Add the app to the whitelist.,Restart the computer.,Update firewall rules.
-16,Software license expired,2,4,7,Renew the license.,Check license validity.,Reinstall the software.
-17,PDF file not opening,2,1,5,Update PDF reader.,Repair PDF reader installation.,Try a different PDF reader.,Check file for corruption.,Re-download the file.
-18,System time incorrect,2,2,6,Sync time with internet server.,Adjust time zone settings.,Replace CMOS battery.,Restart the system.,Contact support.
-19,Unrecognized file format,2,1,4,Install appropriate software.,Convert the file format.,Check for file corruption.,Contact sender for clarification.,Search for compatibility.
-20,Backup software failing,2,6,5,Ensure sufficient storage.,Restart the backup process.,Check network connection.,Update backup software.,Contact support.
-21,Error opening email attachment,2,3,7,Check file type compatibility.,Scan for malware.,Download the attachment again.,Update email client.,Contact support.
-22,Application freezing randomly,2,1,9,Clear application cache.,Restart the application.,Update the application.,Check system logs.,Contact support.
-23,Software update failed,2,2,8,Check internet connection.,Restart the device.,Free up storage.,Download update manually.,Contact support.
-24,Screen resolution mismatch,2,5,6,Update graphics drivers.,Adjust resolution settings.,Restart the system.,Test with another monitor.,Reinstall the OS.
-25,Installer stuck at 0%,2,6,7,Disable antivirus temporarily.,Run installer as admin.,Ensure correct file version.,Check storage space.,Download installer again.
-26,Clipboard not working,2,1,5,Restart the system.,Clear clipboard history.,Check clipboard settings.,Update software.,Run clipboard diagnostics.
-27,Video conferencing app crashing,2,1,9,Restart the app.,Update the app.,Clear app cache.,Check microphone and camera settings.,Reinstall the app.
-28,Desktop icons disappearing,2,2,6,Check desktop settings.,Enable 'Show desktop icons.',Update the OS.
-29,File download stuck,2,3,8,Check internet connection.,Restart the download.,Clear browser cache.,Try a different browser.,Disable antivirus temporarily.
-30,Cloud storage sync error,2,6,7,Restart the sync process.,Update cloud storage app.,Check storage space.,Disable firewall temporarily.,Contact support.
-31,Application takes too long to load,2,1,6,Clear app cache.,Check for updates.,Disable unnecessary startup programs.,Restart the application.
-32,Malware infection detected,2,4,10,Run a full antivirus scan.,Quarantine infected files.,Update antivirus definitions.,Reinstall the OS.,Contact support.
-33,File sharing not working,2,6,7,Check network connection.,Update sharing permissions.,Restart file sharing service.,Contact network admin.,Use an alternative method.
-34,Login session timeout,2,3,8,Check internet stability.,Extend session timeout settings.,Clear browser cache.,Restart the device.,Contact support.
-35,Pop-ups appearing frequently,2,4,9,Install a pop-up blocker.,Clear browser extensions.,Run antivirus scan.,Reset browser settings.,Contact support.
+1,Application not starting,2,1,5,Restart the application.,Check for updates.,Reinstall the app.,Check system requirements.,Contact support.
+2,Operating system crash,2,2,6,Check for system updates.,Restart the system.,Check system logs.,Run system diagnostics.,Contact support.
+3,Slow internet browsing,2,3,7,Clear browser cache.,Disable unnecessary extensions.,Test with a different browser.,Check network settings.,Contact support.
+4,Security software not updating,2,4,5,Check for system updates.,Reinstall security software.,Update software manually.,Test with another security program.,Contact support.
+5,System freezing,2,5,8,Check for system updates.,Check for memory issues.,Update software.,Test with another application.,Contact support.
+6,Backup software not running,2,6,6,Restart the backup application.,Check storage space.,Test with another backup device.,Update software.,Contact support.
+7,Application crashes on launch,2,1,5,Restart the application.,Check for app updates.,Reinstall the app.,Test with another device.,Contact support.
+8,Slow system performance,2,2,6,Close unused applications.,Check for malware.,Update system software.,Restart the system.,Contact support.
+9,Website not loading,2,3,7,Check internet connection.,Clear browser cache.,Disable VPN or proxy.,Test with another browser.,Contact support.
+10,Operating system not booting,2,2,6,Check system startup settings.,Use system repair tools.,Test with a live boot disk.,Reinstall the operating system.,Contact support.
+11,App not responding,2,1,5,Restart the application.,Check for updates.,Reinstall the app.,Test with another device.,Contact support.
+12,System update failure,2,2,6,Check system settings.,Clear update cache.,Test with another update server.,Reinstall system components.,Contact support.
+13,Slow app performance,2,1,6,Clear app cache.,Check system requirements.,Update the app.,Test with another device.,Contact support.
+14,Antivirus not working,2,4,5,Check for updates.,Reinstall antivirus software.,Check system settings.,Test with another antivirus software.,Contact support.
+15,Error during installation,2,1,5,Check system requirements.,Run installer as administrator.,Test with a different installer.,Reinstall system components.,Contact support.
+16,Software license expired,2,4,6,Renew license.,Check system date.,Reinstall software.,Test with another license, Contact support.
+17,Slow browser performance,2,3,5,Disable extensions.,Clear cache.,Test with a different browser.,Update the browser.,Contact support.
+18,Application not syncing,2,1,7,Check network connection.,Check app settings.,Reinstall app.,Test with another device.,Contact support.
+19,Network issues with software,2,3,8,Check server settings.,Restart application.,Test with another device.,Reinstall software.,Contact support.
+20,Unable to install updates,2,2,5,Check update settings.,Clear update cache.,Test with another update server.,Reinstall system components.,Contact support.
+21,Software freezing,2,1,6,Check system resources.,Reinstall the software.,Update software.,Test with another device.,Contact support.
+22,Slow boot time,2,2,7,Disable startup programs.,Check disk space.,Update the system.,Test with a faster disk.,Contact support.
+23,App data loss,2,1,5,Check backup settings.,Recover data from cloud.,Reinstall the app.,Test with another device.,Contact support.
+24,Wi-Fi not connecting on app,2,3,5,Check network settings.,Test with another device.,Update app settings.,Reinstall app.,Contact support.
+25,File not opening in app,2,1,6,Check file format.,Test with another file.,Reinstall app.,Update software.,Contact support.
+26,Security breach in app,2,4,8,Update app security settings.,Check app permissions.,Test with another security program.,Reinstall app.,Contact support.
+27,App license invalid,2,4,7,Check system date.,Update app.,Test with a different license.,Reinstall software.,Contact support.
+28,Internet slow with app,2,3,6,Check app settings.,Test with another device.,Update software.,Test with another network.,Contact support.
+29,App failing to load images,2,1,8,Check image settings.,Update app.,Test with another device.,Clear app cache.,Contact support.
+30,System crash while using app,2,2,5,Check for system updates.,Test with another device.,Reinstall app.,Check system logs.,Contact support.

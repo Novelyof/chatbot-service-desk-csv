@@ -10,7 +10,7 @@ export default async function handler(req, res) {
   console.log('User Query:', query);
 
   try {
-    const filePath = path.join(process.cwd(), 'data', 'issues.csv');
+    const filePath = path.join(process.cwd(), 'data', 'communicationissues.csv');
     const matchedIssue = await matchIssue(query, filePath, subcategory);
 
     if (matchedIssue) {

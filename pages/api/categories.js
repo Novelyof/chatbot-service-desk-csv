@@ -7,7 +7,7 @@ import { readCSV } from '../../lib/csv'; // Import fungsi baca CSV
  * @param {Object} res - Response object
  */
 export default async function handler(req, res) {
-  const filePath = path.join(process.cwd(), 'data', 'categories.csv'); // Path file kategori
+  const filePath = path.join(process.cwd(), 'data', 'categoriesdummy.csv'); // Path file kategori
 
   try {
     const categories = await readCSV(filePath); // Baca data kategori

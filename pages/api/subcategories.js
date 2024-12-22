@@ -10,7 +10,7 @@ export default async function handler(req, res) {
   console.log('Category query parameter:', category);
 
   try {
-    const subcategories = await readCSV('data/subcategories.csv'); // Baca file subkategori
+    const subcategories = await readCSV('data/subcategoriesdummy.csv'); // Baca file subkategori
     console.log('Fetched subcategories:', subcategories);
 
     // Filter subkategori berdasarkan kategori

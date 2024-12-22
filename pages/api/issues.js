@@ -2,7 +2,7 @@ import { readCSV } from '../../lib/csv';
 
 export default async function handler(req, res) {
   try {
-    const issues = await readCSV('data/issues.csv');
+    const issues = await readCSV('data/communicationissues.csv');
     console.log('Fetched issues:', issues);
 
     const sortedIssues = issues.sort((a, b) => b.frequency - a.frequency).slice(0, 5);

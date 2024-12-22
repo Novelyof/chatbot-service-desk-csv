@@ -1,44 +1,31 @@
 id,issue_detail,category_id,subcategory_id,frequency,step1,step2,step3,step4,step5
-1,Laptop not turning on,1,1,15,Check power adapter.,Perform a hard reset.,Inspect battery health.,Disconnect peripherals.,Contact support.
-2,Power button not working,1,1,9,Check battery status.,Perform a hard reset.,Inspect power button.,Update BIOS.,Contact support.
-3,Laptop shuts down randomly,1,1,7,Check for overheating.,Inspect power cable.,Run diagnostic tools.,Replace power adapter.,Contact support.
-4,Screen showing vertical lines,1,2,10,Check display cable.,Update graphics drivers.,Run system diagnostics.,Test on another monitor.,Replace the screen.
-5,Monitor resolution incorrect,1,2,8,Adjust resolution settings.,Update display drivers.,Test with another monitor.,Disable scaling options.,Contact support.
-6,Screen backlight not working,1,2,6,Inspect screen brightness.,Check display cables.,Update display drivers.,Replace backlight.,Contact support.
-7,Hard drive not detected,1,3,8,Check SATA/Power cables.,Run BIOS settings.,Test with another cable.,Replace hard drive.,Contact support.
-8,Hard drive making noise,1,3,6,Backup data immediately.,Run diagnostic tools.,Check for physical damage.,Replace hard drive.,Contact support.
-9,Slow hard drive performance,1,3,12,Defragment the drive.,Run a disk cleanup.,Test with diagnostic tools.,Replace hard drive.,Use SSD instead.
-10,Laptop case damaged,1,3,4,Inspect for cracks.,Use protective case.,Replace damaged parts.,Contact support.,Avoid dropping the laptop.
-11,Keyboard keys not working,1,4,12,Check for debris.,Reconnect keyboard.,Update keyboard drivers.,Test external keyboard.,Replace keyboard.
-12,External keyboard not working,1,4,8,Test with another computer.,Check USB connection.,Update drivers.,Clean keyboard.,Replace keyboard.
-13,Keys typing wrong characters,1,4,5,Check keyboard layout.,Update drivers.,Run troubleshooting.,Replace keyboard.,Contact support.
-14,Fan making loud noise,1,5,7,Check for dust.,Clean fan using compressed air.,Replace thermal paste.,Update BIOS settings.,Replace the fan.
-15,Fan not spinning,1,5,6,Inspect power connections.,Check for obstructions.,Replace fan motor.,Run diagnostics.,Contact support.
-16,High fan speed constantly,1,5,5,Check resource usage.,Clean air vents.,Replace thermal paste.,Update drivers.,Use cooling pad.
-17,USB port not working,1,6,9,Test with another device.,Check Device Manager.,Update USB drivers.,Disable power-saving mode.
-18,USB device not recognized,1,6,7,Restart the laptop.,Reconnect device.,Check USB settings.,Update drivers.,Test another port.
-19,USB charging is slow,1,6,5,Check charger specifications.,Clean USB port.,Enable fast charging.,Replace USB cable.,Contact support.
-20,Webcam not detected,1,7,6,Ensure webcam is enabled.,Update webcam drivers.,Test in another app.,Check privacy settings.,Reinstall drivers.
-21,Camera quality is poor,1,7,6,Check lens for dirt.,Adjust camera settings.,Update drivers.,Use an external webcam.,Contact support.
-22,Webcam flickering,1,7,4,Adjust lighting conditions.,Check webcam drivers.,Use an external webcam.,Contact support.
-23,Battery draining quickly,1,8,11,Reduce screen brightness.,Close background apps.,Update power settings.,Calibrate battery.,Replace battery.
-24,Laptop won't charge,1,8,10,Check charger and cable.,Inspect charging port.,Test with another charger.,Update BIOS.,Replace battery.
-25,Battery not detected,1,8,6,Reseat the battery.,Update battery drivers.,Test with another battery.,Inspect battery health.,Contact support.
-26,Laptop overheating,1,9,13,Check air vents for dust.,Use a cooling pad.,Update BIOS.,Close resource-heavy apps.
-27,Overheating during working,1,9,7,Lower graphics settings.,Use an external cooling pad.,Check thermal paste.,Update drivers.,Contact support.
-28,Cooling fan not responsive,1,9,5,Inspect fan connections.,Clean fan components.,Replace fan.,Run diagnostics.,Contact support.
-29,No sound from speakers,1,10,12,Check volume settings.,Update sound drivers.,Test with headphones.,Run sound troubleshooter.,Replace speakers.
-30,Headphone jack not working,1,10,7,Test with another device.,Clean the jack.,Update audio drivers.,Disable audio enhancements.,Replace jack.
-31,Speakers making static noise,1,10,6,Update audio drivers.,Check for interference.,Test with headphones.,Run diagnostics.,Replace speakers.
-32,Wi-Fi adapter not detected,1,11,14,Update network drivers.,Enable adapter in BIOS.,Reinstall adapter.,Reset network settings.,Contact support.
-33,No display on screen,1,11,11,Check brightness settings.,Restart the laptop.,Test with external monitor.,Check RAM seating.,Contact support.
-34,Frequent disconnections,1,11,5,Restart the router.,Update adapter drivers.,Adjust network settings.,Test with another network.,Contact ISP.
-35,Touchpad not responding,1,12,8,Ensure touchpad is enabled.,Update touchpad drivers.,Test external mouse.,Adjust touchpad sensitivity.,Run troubleshooter.
-36,Mousepad overheating,1,12,3,Check power settings.,Reduce usage.,Contact support.
-37,Touchpad gestures not working,1,12,6,Enable gestures in settings.,Update touchpad drivers.,Restart the system.,Run diagnostics.,Contact support.
-38,Laptop screen flickering,1,13,10,Update graphics drivers.,Adjust refresh rate.,Test on external monitor.,Check display cable.,Contact support.
-39,Colors not displaying correctly,1,13,7,Calibrate display settings.,Update graphics drivers.,Run diagnostics.,Test with another monitor.,Contact support.
-40,Graphics freezing,1,13,5,Check GPU temperature.,Update GPU drivers.,Close unnecessary apps.,Run diagnostics.,Contact support.
-41,External monitor not working,1,14,7,Check cable connections.,Update display drivers.,Test with another monitor.,Check monitor settings.,Replace cables.
-42,DVD drive not reading discs,1,14,5,Check for dust in the drive.,Update drivers.,Test with another disc.,Run diagnostics.,Replace the drive.
-43,External accessories not detected,1,14,4,Reconnect the accessory.,Update drivers.,Check compatibility.,Contact support.
+1,Power supply not working,1,1,5,Check power cable connection.,Test with another power outlet.,Check power supply.,Replace faulty power supply.,Contact support.
+2,Display screen flickering,1,2,6,Check screen connection.,Update display drivers.,Test with another monitor.,Adjust screen settings.,Contact support.
+3,Storage drive not detected,1,3,7,Check drive connection.,Test with another cable.,Try another port.,Update drivers.,Contact support.
+4,Keyboard not responding,1,4,5,Check keyboard connection.,Test with another keyboard.,Check device settings.,Restart system.,Contact support.
+5,Overheating during use,1,5,6,Check fan performance.,Clean air vents.,Ensure system is in a well-ventilated area.,Replace thermal paste.,Contact support.
+6,No signal from HDMI port,1,6,5,Check HDMI cable.,Test with another device.,Try another HDMI port.,Update graphics driver.,Contact support.
+7,Printer not working,1,7,8,Check printer connection.,Test with another printer.,Ensure correct driver is installed.,Check printer status.,Contact support.
+8,Mouse not moving,1,8,6,Check mouse connection.,Test with another mouse.,Update mouse drivers.,Check system settings.,Contact support.
+9,Audio not working,1,9,7,Check speaker connections.,Test with another audio device.,Update sound drivers.,Check system sound settings.,Contact support.
+10,Wi-Fi not working,1,10,9,Check router connection.,Restart device.,Test with another Wi-Fi network.,Update network drivers.,Contact support.
+11,Networking issue,1,11,6,Check router settings.,Test with a different device.,Update network drivers.,Check cable connections.,Contact support.
+12,Touchpad not responsive,1,12,5,Check touchpad drivers.,Test with an external mouse.,Update touchpad drivers.,Check system settings.,Contact support.
+13,Graphics blurry,1,13,7,Check graphics card connection.,Update graphics drivers.,Test with another display.,Check power supply.,Contact support.
+14,External device not recognized,1,14,8,Check device connection.,Test with another cable.,Update drivers.,Restart device.,Contact support.
+15,System performance slow,1,11,9,Close unused applications.,Check for malware.,Test with another device.,Restart device.,Contact support.
+16,Printer not recognized,1,7,8,Ensure printer is powered on.,Check USB cable.,Update drivers.,Test with another computer.,Contact support.
+17,Graphics artifacting,1,13,6,Update graphics drivers.,Test with another display.,Check system settings.,Check for overheating.,Contact support.
+18,Power button not working,1,1,5,Check power connection.,Test with another power button.,Reset power settings.,Replace faulty power button.,Contact support.
+19,External USB drive slow,1,14,7,Test with another port.,Check for malware.,Update drivers.,Test with another cable.,Contact support.
+20,Battery draining fast,1,8,6,Check battery health.,Disable power-hungry apps.,Calibrate battery.,Test with another battery.,Contact support.
+21,Input lag with keyboard,1,4,8,Check keyboard drivers.,Test with another keyboard.,Check system settings.,Update drivers.,Contact support.
+22,Display color issue,1,2,7,Adjust color settings.,Update display drivers.,Test with another monitor.,Check display cable.,Contact support.
+23,Wi-Fi signal weak,1,10,5,Move closer to router.,Restart router.,Check network settings.,Update Wi-Fi drivers.,Contact support.
+24,Power adapter not working,1,1,8,Check power connection.,Test with another adapter.,Check voltage settings.,Replace faulty adapter.,Contact support.
+25,Hard drive slow performance,1,3,6,Check for errors.,Test with another device.,Check for malware.,Defragment drive.,Contact support.
+26,Keyboard keys sticking,1,4,5,Clean keyboard.,Test with another keyboard.,Check system settings.,Replace faulty keyboard.,Contact support.
+27,Screen resolution issue,1,2,9,Adjust display resolution.,Update graphics drivers.,Test with another display.,Check cable connections.,Contact support.
+28,Device not turning on,1,1,5,Check power connection.,Test with another outlet.,Check motherboard connections.,Test power supply.,Contact support.
+29,Printer offline,1,7,8,Check printer connection.,Restart printer.,Update printer drivers.,Test with another printer.,Contact support.
+30,Audio driver issue,1,9,7,Update audio drivers.,Test with another speaker.,Check sound settings.,Restart device.,Contact support.

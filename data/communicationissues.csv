@@ -1,41 +1,31 @@
 id,issue_detail,category_id,subcategory_id,frequency,step1,step2,step3,step4,step5
-1,Wi-Fi not connecting,3,1,20,Restart the router (ask IT support).,Reconnect to the network.,Update wireless drivers.,Check router settings (via IT support).,Reset the network.
-2,Bluetooth not pairing,3,2,15,Ensure Bluetooth is enabled.,Restart both devices.,Update Bluetooth drivers.,Remove paired devices and re-pair.,Check for interference.
-3,Email not syncing,3,3,14,Check email server settings.,Update email client.,Restart the application.,Check internet connection.,Contact email provider.
-4,VoIP call quality poor,3,4,10,Check internet speed.,Use a wired connection.,Restart VoIP application.,Close unnecessary apps.,Contact support.
-5,Chat application not sending messages,3,5,12,Check internet connection.,Restart the application.,Update the app.,Clear app cache.,Contact support.
-6,Wi-Fi disconnects frequently,3,1,16,Restart the router (ask IT support).,Change Wi-Fi channel (via IT support).,Update router firmware (via IT support).,Move closer to the router.,Replace the router (via IT support).
-7,Bluetooth audio lagging,3,2,13,Check battery levels.,Update Bluetooth drivers.,Reduce distance to the device.,Disable unused Bluetooth devices.,Contact support.
-8,Email sending failed,3,3,10,Check recipient email address.,Check SMTP settings.,Restart email client.,Contact email provider.,Use another device.
-9,Video call connection dropping,3,4,12,Check internet speed.,Update video call application.,Restart the device.,Switch to a wired connection.,Contact support.
-10,Group chat notifications delayed,3,5,8,Check app notification settings.,Update the application.,Restart the device.,Clear app cache.,Contact support.
-11,Network cable unplugged error,3,1,9,Check cable connection.,Restart the router (ask IT support).,Replace the cable (via IT support).,Check network adapter.,Contact support.
-12,Bluetooth device keeps disconnecting,3,2,11,Update Bluetooth drivers.,Reconnect the device.,Check battery levels.,Disable power-saving mode.,Replace the device.
-13,Emails marked as spam,3,3,7,Check email filters.,Whitelist the sender.,Contact email provider.,Update email client.,Request sender to resend.
-14,VoIP app not opening,3,4,6,Restart the device.,Reinstall the app.,Check app permissions.,Update the app.,Contact support.
-15,Slow upload speed,3,1,14,Check internet plan.,Restart the router.,Update network drivers.,Close background uploads.,Contact support.
-16,Unable to join video conference,3,4,9,Check meeting link.,Update video conferencing app.,Restart the system.,Check camera and mic permissions.,Contact host.
-17,Emails duplicating in inbox,3,3,8,Restart the email client.,Check account settings.,Remove and re-add the account.,Update the client.,Contact email provider.
-18,Push notifications not working,3,5,10,Check app settings.,Update the app.,Restart the device.,Clear app cache.,Reinstall the app.
-19,Slow browsing speed,3,1,12,Restart the router.,Clear browser cache.,Use a different browser.,Check for malware.,Contact support.
-20,Bluetooth file transfer failed,3,2,7,Ensure devices are discoverable.,Restart Bluetooth.,Update Bluetooth drivers.,Reduce file size.,Contact support.
-21,No incoming calls on VoIP,3,4,6,Check Do Not Disturb settings.,Restart the app.,Check internet connection.,Update the app.,Contact support.
-22,Wi-Fi password not accepted,3,1,11,Ensure correct password.,Restart the router (ask IT support).,Forget and re-add network.,Check router settings (via IT support).,Contact support.
-23,Unable to receive emails,3,3,8,Check internet connection.,Update email client.,Check email server settings.,Contact provider.,Clear email cache.
-24,Voice call drops suddenly,3,4,10,Check internet speed.,Restart the app.,Update the app.,Close background apps.,Contact support.
-25,Message delivery delayed,3,5,9,Check network connection.,Update the app.,Restart the app.,Clear app cache.,Contact support.
-26,Wi-Fi speed fluctuating,3,1,13,Restart the router (ask IT support).,Check for interference.,Update router firmware (via IT support).,Use a different channel (via IT support).,Contact support.
-27,Bluetooth keyboard not typing,3,2,8,Check battery levels.,Reconnect the keyboard.,Update Bluetooth
-28,Wi-Fi connected but no internet,3,1,16,Restart the router (ask IT support).,Check ISP status.,Reset network adapter.,Update wireless drivers.,Contact support.
-29,Bluetooth mouse lags,3,2,9,Replace batteries.,Reconnect the mouse.,Update Bluetooth drivers.,Disable unused Bluetooth devices.,Contact support.
-30,Emails stuck in outbox,3,3,12,Check internet connection.,Restart email client.,Check SMTP settings.,Clear outbox folder.,Contact provider.
-31,VoIP call volume too low,3,4,10,Increase system volume.,Check app volume settings.,Use headphones.,Restart the app.,Contact support.
-32,Chat app not loading,3,5,8,Check internet connection.,Restart the app.,Update the app.,Clear app cache.,Reinstall the app.
-33,Wi-Fi signal weak,3,1,14,Move closer to the router.,Remove obstacles.,Update router firmware (via IT support).,Add a Wi-Fi extender (via IT support).,Contact support.
-34,Bluetooth speaker not detected,3,2,10,Turn on speaker.,Check pairing mode.,Restart the device.,Update Bluetooth drivers.,Contact support.
-35,Emails taking too long to load,3,3,7,Check internet speed.,Clear email cache.,Restart email client.,Update the client.,Contact provider.
-36,VoIP app crashing,3,4,9,Restart the system.,Update the app.,Clear app cache.,Reinstall the app.,Contact support.
-37,Chat app not receiving messages,3,5,6,Check notification settings.,Restart the app.,Update the app.,Check internet connection.,Contact support.
-38,Wi-Fi limited access,3,1,11,Forget and reconnect network.,Check for IP conflicts.,Restart router and device (ask IT support).,Update network drivers.,Contact support.
-39,Bluetooth headphones disconnect during calls,3,2,10,Check battery levels.,Reconnect headphones.,Update Bluetooth drivers.,Disable unused Bluetooth devices.,Contact support.
-40,Emails missing in inbox,3,3,9,Check email filters.,Search in all folders.,Restart email client.,Contact provider.,Update email settings.
+1,Wi-Fi connection not showing in available networks,3,1,8,Check if Wi-Fi is enabled.,Restart your device.,Forget and reconnect to the network.,Check if the network is hidden.,Contact IT support.
+2,Bluetooth not pairing with headset,3,2,5,Ensure Bluetooth is enabled.,Restart device.,Check headset compatibility.,Update Bluetooth drivers.,Contact support.
+3,Email not sending,3,3,7,Check SMTP settings.,Check email address.,Check server status.,Update email app.,Contact support.
+4,VoIP call dropping,3,4,6,Check internet connection.,Restart VoIP app.,Check call settings.,Test with another device.,Contact support.
+5,Chat app not syncing messages,3,5,7,Check server settings.,Restart the app.,Check network connection.,Reinstall app.,Contact support.
+6,Slow Wi-Fi speed in certain areas,3,1,7,Move closer to the router.,Check for physical obstructions.,Disconnect other unused devices.,Check internet speed with a test.,Contact IT support.
+7,Bluetooth audio lag,3,2,6,Check Bluetooth settings.,Test with another device.,Update Bluetooth drivers.,Check system audio settings.,Contact support.
+8,Unable to send email attachments,3,3,6,Check email settings.,Update app.,Test with another file format.,Check file size limit.,Contact support.
+9,VoIP audio issues,3,4,7,Check microphone settings.,Test with another device.,Update VoIP software.,Restart device.,Contact support.
+10,Unable to connect to chat app,3,5,8,Check network settings.,Restart device.,Reinstall app.,Test with another device.,Contact support.
+11,Wi-Fi issues with video calls,3,1,7,Check router settings.,Test with another device.,Check internet speed.,Restart router.,Contact support.
+12,Bluetooth disconnection,3,2,7,Check Bluetooth settings.,Test with another device.,Re-pair devices.,Update Bluetooth drivers.,Contact support.
+13,Unable to receive email,3,3,5,Check server settings.,Check inbox filters.,Check email address.,Restart email client.,Contact support.
+14,VoIP not connecting,3,4,8,Check network connection.,Update VoIP software.,Test with another device.,Check firewall settings.,Contact support.
+15,Unable to open chat app,3,5,6,Check app settings.,Reinstall app.,Test with another device.,Check network connection.,Contact support.
+16,Wi-Fi signal weak during calls,3,1,5,Check Wi-Fi connection.,Restart router.,Test with another network.,Check system settings.,Contact support.
+17,Bluetooth not working for audio,3,2,6,Check device compatibility.,Update Bluetooth drivers.,Restart devices.,Test with another audio device.,Contact support.
+18,Email app not syncing,3,3,5,Check sync settings.,Restart app.,Test with another email account.,Update app.,Contact support.
+19,VoIP lag issues,3,4,6,Check internet speed.,Test with another device.,Restart router.,Update VoIP app.,Contact support.
+20,Unable to access chat history,3,5,7,Check app settings.,Update app.,Restart the app.,Test with another device.,Contact support.
+21,Wi-Fi signal fluctuating,3,1,7,Check router settings.,Test with another device.,Restart router.,Check for interference.,Contact support.
+22,Bluetooth pairing issue,3,2,5,Test with another Bluetooth device.,Restart devices.,Update Bluetooth drivers.,Check compatibility.,Contact support.
+23,Email not receiving,3,3,8,Check server settings.,Check email filters.,Restart email app.,Test with another device.,Contact support.
+24,VoIP call quality poor,3,4,5,Check internet connection.,Test with another device.,Check device settings.,Test with a different service.,Contact support.
+25,Chat app notification issues,3,5,6,Check app settings.,Reinstall app.,Test with another device.,Check notification settings.,Contact support.
+26,Wi-Fi dropping during video call,3,1,5,Check Wi-Fi signal.,Test with another device.,Restart router.,Check network speed.,Contact support.
+27,Bluetooth audio cutting out,3,2,7,Test with another audio device.,Update Bluetooth drivers.,Restart devices.,Check system audio settings.,Contact support.
+28,Email sync issue,3,3,5,Check sync settings.,Restart app.,Test with another email account.,Update app.,Contact support.
+29,VoIP call not connecting,3,4,6,Check internet connection.,Restart VoIP software.,Check server settings.,Test with another device.,Contact support.
+30,Unable to open chat conversations,3,5,8,Check app settings.,Restart app.,Reinstall app.,Test with another device.,Contact support.

@@ -80,8 +80,7 @@ const Home = () => {
                 <h4>Step {index + 1}</h4>
                 <p>{step}</p>
               </div>
-            ))}
-            <div className={styles.callHelpdesk}> 
+            ))}<div className={styles.callHelpdesk}> 
               <p>If the solution not working, please call our helpdesk team for further assistance.</p>
               <button className={styles.button} onClick={() => alert('Calling helpdesk...')}>
                 Call Helpdesk

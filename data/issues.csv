@@ -1,58 +1,101 @@
-﻿id,issue_detail,category_id,subcategory_id,frequency,step1,step2,step3,step4,step5,step6,step7,step8,step9
-1,Keyboard external not working,1,1,10,Try replacing the batteries if the keyboard uses them.,Power off and power on the system.,Clean the keyboard.,Uninstall and reinstall the driver.,Update BIOS.,Run Windows keyboard troubleshooter.,Test individual keys for response,,,,
-2,Mouse not responding,1,2,8,Check or replace batteries if wireless.,Ensure power is on.,Check USB or cable connections.,Try another USB port.,Clean the mouse.,Update mouse driver.,Follow manufacturer pairing instructions,,,,
-3,Microsoft Word crashing,2,3,6,Check for Windows and Office updates.,Disable add-ins.,Run Word in safe mode.,Repair Office installation.,Delete Word template cache,,,,,,,,
-4,Printer not connecting,1,4,5,Restart the printer.,Check printer connection.,Update drivers.,Check network connection.,Clear printer queue,,,,,,,,
-5,Wi-Fi not connecting,1,5,9,Restart router and modem.,Reset network settings.,Move closer to router.,Update network drivers.,Check for interference.,Change Wi-Fi channel,,,,,,,,
-6,Bluetooth headphone not detected,1,6,3,Enable Bluetooth.,Put headphones in pairing mode.,Restart Bluetooth service.,Check for updates.,Remove and re-pair device,,,,,,,,
-7,Slow computer performance,2,7,4,Update Windows and drivers.,Restart PC.,Use ReadyBoost.,Free up disk space.,Check for malware.,Disable unnecessary startup apps.,Pause OneDrive sync.,Defragment disk,,,,
-8,Email not syncing,2,8,6,Check for updates.,Force sync.,Check sync settings.,Reconnect account.,Clear app cache,,,,,,,,
-9,Black screen when turning on laptop,1,9,2,Check power connection.,Test with external monitor.,Reset RAM.,Update BIOS.,Perform hard reset.,Run hardware diagnostics,,,,,,,,
-10,External drive not recognized,1,10,3,Check USB connection.,Try different port.,Run Windows troubleshooter.,Update drivers.,Check in Disk Management,,,,,,,,
-11,Touchscreen not responding,2,11,2,Restart device.,Check for updates.,Calibrate touchscreen.,Update touchscreen driver.,Run troubleshooter,,,,,,,,
-12,Keyboard keys repeating,1,1,4,Check for stuck keys.,Unplug and replug the keyboard.,Disable sticky keys.,Update driver.,Run malware scan,,,,,
-13,Mouse pointer freezing,1,2,7,Update driver.,Change surface.,Adjust mouse settings.,Clean mouse.,Check for system lag,,,,,
-14,Word document not saving,2,3,5,Check disk space.,Try different file format.,Update Office.,Run repair tool.,Check permissions,,,,,
-15,Printer showing error message,1,4,6,Restart printer.,Clear jams.,Check ink/toner levels.,Update drivers.,Run diagnostics,,,,,
-16,Wi-Fi keeps disconnecting,1,5,7,Forget and reconnect.,Update drivers.,Move closer to router.,Reset router.,Change channel,,,,,
-17,Bluetooth mouse lagging,1,6,4,Update drivers.,Move closer to device.,Check for interference.,Disable power-saving mode.,Re-pair device,,,,,
-18,Computer crashing during startup,2,7,3,Check for driver updates.,Run diagnostics.,Start in safe mode.,Check for overheating.,Restore from backup,,,,,
-19,Email app crashing,2,8,4,Update app.,Clear cache.,Reinstall app.,Check connection.,Run in safe mode,,,,,
-20,Display flickering,1,9,6,Check cable.,Update drivers.,Disable hardware acceleration.,Adjust refresh rate.,Test on another monitor,,,,,
-21,External drive disconnecting randomly,1,10,5,Check USB cable.,Update drivers.,Disable USB selective suspend.,Run diagnostic tool.,Change power source.
-22,Keyboard not lighting up,1,1,4,Check power settings.,Toggle backlight function.,Update keyboard firmware.,Restart PC.,Check BIOS settings.
-23,Mouse double-clicking instead of single click,1,2,6,Adjust double-click speed.,Update drivers.,Clean mouse button.,Try another mouse.,Run diagnostic tool.
-24,Word slow to open,2,3,5,Disable add-ins.,Check for updates.,Repair Office.,Increase system resources.,Clear temporary files.
-25,Printer printing blank pages,1,4,6,Check ink/toner levels.,Clean print head.,Update driver.,Run print head alignment.,Clear print queue.
-26,Wi-Fi showing limited connectivity,1,5,7,Restart router.,Forget and reconnect.,Update drivers.,Run troubleshooter.,Reset network settings.
-27,Bluetooth keeps turning off,1,6,4,Disable power-saving.,Update Bluetooth drivers.,Re-pair devices.,Check for interference.,Restart Bluetooth service.
-28,Slow boot times,2,7,4,Disable startup programs.,Update drivers.,Check disk health.,Defragment hard drive.,Run system diagnostic.
-29,Email notifications not working,2,8,5,Check notification settings.,Re-enable notifications.,Update app.,Clear app cache.,Reinstall app.
-30,Screen resolution keeps changing,1,9,3,Update display driver.,Check resolution settings.,Test on different monitor.,Disable auto display scaling.,Run display diagnostic.
-31,External hard drive making noise,1,10,3,Check for physical damage.,Run disk check.,Back up data.,Update drivers.,Check cable connection.
-32,Touchscreen registering wrong input,2,11,3,Calibrate touchscreen.,Check for screen damage.,Update drivers.,Restart device.,Run diagnostic tool.
-33,Keyboard shortcuts not working,1,1,4,Check shortcut settings.,Restart application.,Update drivers.,Check for stuck keys.,Run troubleshooting tool.
-34,Mouse scroll wheel not working,1,2,6,Clean scroll wheel.,Update drivers.,Try different surface.,Adjust scroll settings.,Check for software conflicts.
-35,Word text alignment issues,2,3,5,Check paragraph settings.,Use format painter.,Reset Word template.,Update Office.,Run repair tool.
-36,Printer not found on network,1,4,6,Check network connection.,Restart printer and PC.,Update drivers.,Re-add printer.,Run network troubleshooter.
-37,Wi-Fi slower than expected,1,5,8,Check for interference.,Move closer to router.,Update drivers.,Run speed test.,Change Wi-Fi channel.
-38,Bluetooth audio out of sync,1,6,4,Re-pair headphones.,Update Bluetooth drivers.,Disable other Bluetooth devices.,Restart device.,Adjust audio settings.
-39,Frequent blue screen of death,2,7,5,Check for hardware issues.,Update drivers.,Run memory diagnostic.,Check for overheating.,Restore Windows.
-40,Email attachments not downloading,2,8,4,Check attachment settings.,Check internet connection.,Update app.,Clear cache.,Restart device.
-41,Display not detecting second monitor,1,9,3,Check cable connections.,Update drivers.,Adjust display settings.,Test on another monitor.,Run hardware diagnostic.
-42,External drive read-only,1,10,4,Check permissions.,Change file system settings.,Update drivers.,Run disk repair.,Test on another PC.
-43,Touchscreen sensitivity issues,2,11,3,Adjust sensitivity settings.,Update drivers.,Run troubleshooting tool.,Restart device.,Calibrate screen.
-44,Keyboard layout incorrect,1,1,5,Check language settings.,Change keyboard layout.,Update drivers.,Restart device.,Run diagnostic tool.
-45,Mouse pointer not visible,1,2,4,Check display settings.,Update drivers.,Restart device.,Try another mouse.,Run troubleshooting tool.
-46,Word spelling check not working,2,3,5,Enable spelling check.,Update Word.,Clear spelling cache.,Repair Office.,Check language settings.
-47,Printer printing slow,1,4,7,Check print quality settings.,Update driver.,Clear print queue.,Restart printer.,Check for firmware updates.
-48,Wi-Fi adapter missing,1,5,6,Update drivers.,Reinstall Wi-Fi adapter.,Check device manager.,Run network troubleshooter.,Restart device.
-49,Bluetooth speaker connection drops,1,6,5,Move closer to device.,Re-pair speaker.,Update Bluetooth driver.,Check for interference.,Restart speaker.
-50,Slow network performance,2,7,8,Check network speed.,Restart router.,Update network drivers.,Limit background processes.,Run network diagnostic tool.
-51,Internet connectivity issues,3,12,15,Restart the router.,Ensure cables are securely connected.,Check if other devices are connected.,Update network drivers.,Run Windows network troubleshooter.,Contact IT support for assistance.
-52,Unable to send or receive emails,3,13,12,Check internet connection.,Ensure correct email server settings.,Clear email app cache.,Update email app.,Try accessing email through a web browser.,Contact IT support.
-53,Video conferencing call dropping frequently,3,14,10,Check internet connection speed.,Close unnecessary applications.,Update video conferencing app.,Try switching to a wired connection.,Restart the router.
-54,Messaging app notifications not working,3,15,8,Check app notification settings.,Ensure the app is running in the background.,Clear app cache.,Reinstall the app.,Update to the latest version.
-55,VoIP call quality is poor,3,16,7,Check for a stable internet connection.,Use a headset with a microphone.,Close other applications.,Reduce background noise.,Contact IT support.
-56,Unable to log in to video conferencing tool,3,14,6,Ensure correct login credentials.,Clear browser cache.,Update the app or browser.,Restart device.,Check if the service is down.
-57,Attachments in email not downloading,3,13,5,Ensure sufficient storage space.,Check internet connection.,Try accessing email on a different device.,Clear app cache.,Contact IT if the issue persists.
+﻿id,issue_detail,category_id,subcategory_id,frequency,step1,step2,step3,step4,step5
+1,Wi-Fi not connecting,1,1,20,Restart the router.,Reconnect to the network.,Update wireless drivers.,Check router settings.,Contact support.
+2,Wi-Fi speed slow,1,1,18,Restart the router.,Clear cache.,Use different channel.,Update router firmware.,Contact support.
+3,Bluetooth not pairing,2,1,15,Ensure Bluetooth is enabled.,Restart devices.,Update drivers.,Forget and re-pair device.,Contact support.
+4,Bluetooth disconnects frequently,2,2,12,Update drivers.,Reconnect device.,Check battery levels.,Disable power saving.,Contact support.
+5,Email not syncing,3,1,14,Check server settings.,Restart app.,Update email client.,Check internet.,Contact support.
+6,Email sending failed,3,2,10,Check SMTP settings.,Verify recipient email.,Restart client.,Update app.,Contact support.
+7,Slow browsing speed,4,1,13,Restart router.,Clear browser cache.,Use a wired connection.,Check for malware.,Contact support.
+8,Network cable unplugged,4,2,9,Check cable connection.,Replace cable.,Check adapter settings.,Restart router.,Contact support.
+9,App notifications delayed,5,1,8,Check app settings.,Update app.,Restart phone.,Clear app cache.,Contact support.
+10,App not opening,5,2,6,Restart device.,Reinstall app.,Check permissions.,Update app.,Contact support.
+11,Wi-Fi disconnects frequently,1,1,16,Restart router.,Change Wi-Fi channel.,Move closer.,Update firmware.,Contact support.
+12,Bluetooth audio lagging,2,1,11,Check battery levels.,Restart devices.,Reduce distance.,Disable unused devices.,Contact support.
+13,Email marked as spam,3,3,7,Check spam filters.,Whitelist sender.,Contact provider.,Update client.,Contact support.
+14,Slow upload speed,4,1,10,Restart router.,Close background uploads.,Update drivers.,Test different server.,Contact support.
+15,Push notifications not working,5,1,8,Check notification settings.,Restart device.,Update app.,Clear app cache.,Contact support.
+16,Bluetooth file transfer failed,2,2,7,Ensure devices are discoverable.,Restart Bluetooth.,Update drivers.,Reduce file size.,Contact support.
+17,Voice call drops suddenly,4,2,10,Check internet speed.,Restart device.,Update app.,Close background apps.,Contact support.
+18,Wi-Fi password not accepted,1,1,9,Ensure correct password.,Restart router.,Forget and re-add network.,Check settings.,Contact support.
+19,Unable to receive emails,3,1,8,Check internet connection.,Verify server settings.,Update app.,Restart device.,Contact support.
+20,Wi-Fi fluctuates,1,1,12,Restart router.,Change frequency band.,Update router.,Test other devices.,Contact support.
+21,Bluetooth keyboard not typing,2,2,8,Check battery.,Reconnect device.,Update drivers.,Reset keyboard.,Contact support.
+22,Email duplicate issue,3,2,8,Restart app.,Remove and re-add account.,Update client.,Check filters.,Contact support.
+23,Slow webpage loading,4,1,10,Restart router.,Clear browser cache.,Switch browser.,Test speed.,Contact support.
+24,App crashing often,5,2,7,Restart device.,Reinstall app.,Update app.,Check permissions.,Contact support.
+25,Wi-Fi signal weak,1,1,11,Move closer to router.,Remove interference.,Restart router.,Update firmware.,Contact support.
+26,Bluetooth mouse not working,2,2,8,Check battery.,Reconnect device.,Update drivers.,Disable power saving.,Contact support.
+27,Email attachment error,3,3,7,Check file size.,Restart app.,Update client.,Try another device.,Contact support.
+28,Connection drops frequently,4,1,12,Restart router.,Check cables.,Update firmware.,Test other devices.,Contact support.
+29,Push notifications delayed,5,1,6,Check notification settings.,Restart app.,Update app.,Clear app cache.,Contact support.
+30,No internet access,4,1,15,Restart router.,Check cables.,Check adapter settings.,Update drivers.,Contact support.
+31,Bluetooth headset low volume,2,2,8,Check volume settings.,Reconnect device.,Update drivers.,Reset headset.,Contact support.
+32,Email draft not saving,3,2,6,Check internet.,Restart app.,Update client.,Try another device.,Contact support.
+33,Wi-Fi network not showing,1,1,9,Restart router.,Ensure SSID is broadcasted.,Move closer.,Update firmware.,Contact support.
+34,App update stuck,5,2,7,Restart device.,Check storage.,Update app.,Reinstall app.,Contact support.
+35,Bluetooth not discoverable,2,1,6,Enable discovery mode.,Restart Bluetooth.,Update drivers.,Reset settings.,Contact support.
+36,Email app frozen,3,1,7,Restart app.,Clear app cache.,Update client.,Restart device.,Contact support.
+37,Slow connection to VPN,4,2,9,Check internet speed.,Restart VPN app.,Change server.,Update app.,Contact support.
+38,No sound in app,5,2,8,Check volume settings.,Restart app.,Update app.,Reinstall app.,Contact support.
+39,Wi-Fi drops during calls,1,1,10,Restart router.,Move closer to router.,Update firmware.,Check for interference.,Contact support.
+40,Bluetooth microphone not working,2,2,7,Check permissions.,Reconnect device.,Update drivers.,Test another device.,Contact support.
+41,Email search slow,3,2,6,Clear search cache.,Update client.,Restart app.,Check filters.,Contact support.
+42,Web pages not loading,4,1,14,Restart router.,Check DNS settings.,Switch browser.,Update drivers.,Contact support.
+43,App login issues,5,1,7,Check credentials.,Restart app.,Update app.,Clear cache.,Contact support.
+44,Wi-Fi no internet access,1,1,15,Restart router.,Check ISP status.,Update router firmware.,Test other devices.,Contact support.
+45,Bluetooth stuttering audio,2,1,9,Check distance.,Restart devices.,Update drivers.,Reduce interference.,Contact support.
+46,Email delayed delivery,3,3,7,Check server settings.,Restart app.,Update client.,Contact provider.,Contact support.
+47,Slow file upload,4,1,10,Check internet speed.,Close background apps.,Update drivers.,Switch server.,Contact support.
+48,App freezing,5,2,8,Restart device.,Reinstall app.,Update app.,Clear app cache.,Contact support.
+49,Wi-Fi range limited,1,1,12,Move closer to router.,Add range extender.,Update firmware.,Test other devices.,Contact support.
+50,Bluetooth connection fails intermittently,2,2,8,Update drivers.,Restart devices.,Reconnect device.,Test another device.,Contact support.
+51,Email not opening attachments,3,2,6,Check file format.,Restart app.,Update client.,Try another device.,Contact support.
+52,Internet slow at peak hours,4,1,9,Restart router.,Test speed.,Update firmware.,Switch to wired connection.,Contact support.
+53,Notifications not showing,5,1,8,Check app permissions.,Restart device.,Update app.,Reinstall app.,Contact support.
+54,Bluetooth speaker no sound,2,2,7,Check volume settings.,Reconnect device.,Update drivers.,Test another device.,Contact support.
+55,Email spam increase,3,3,6,Update filters.,Mark spam emails.,Whitelist senders.,Contact provider.,Contact support.
+56,Web pages timeout,4,1,13,Restart router.,Switch browser.,Clear cache.,Test speed.,Contact support.
+57,App installation error,5,2,8,Check storage.,Restart device.,Reinstall app.,Update app.,Contact support.
+58,Wi-Fi not reconnecting,1,1,10,Forget network.,Re-add network.,Restart router.,Update firmware.,Contact support.
+59,Bluetooth lag in calls,2,1,7,Reduce distance.,Update drivers.,Restart devices.,Test another headset.,Contact support.
+60,Email app sync issue,3,1,8,Restart app.,Update client.,Check server settings.,Contact provider.,Contact support.
+61,Network drops on cable,4,2,10,Check cable.,Replace cable.,Restart router.,Check adapter settings.,Contact support.
+62,App notifications out of order,5,1,7,Check app settings.,Update app.,Restart device.,Clear app cache.,Contact support.
+63,Wi-Fi intermittent drops,1,1,11,Restart router.,Update firmware.,Move closer.,Test other devices.,Contact support.
+64,Bluetooth reconnecting issue,2,1,9,Restart Bluetooth.,Reconnect device.,Update drivers.,Test another device.,Contact support.
+65,Email auto logout,3,2,7,Check account settings.,Update app.,Restart client.,Try another device.,Contact support.
+66,Web pages load partially,4,1,10,Clear browser cache.,Switch browser.,Check DNS settings.,Restart router.,Contact support.
+67,App not downloading,5,2,8,Check storage space.,Restart device.,Reinstall app.,Update app.,Contact support.
+68,Wi-Fi unable to connect,1,1,14,Restart router.,Check settings.,Forget and reconnect.,Update drivers.,Contact support.
+69,Bluetooth interference,2,2,10,Reduce distance.,Turn off other devices.,Update drivers.,Restart Bluetooth.,Contact support.
+70,Email settings reset,3,1,7,Check account settings.,Update client.,Restart app.,Contact provider.,Contact support.
+71,Wi-Fi speed inconsistent,1,1,12,Restart router.,Change frequency band.,Update firmware.,Test with another device.,Contact support.
+72,Bluetooth disconnect on standby,2,1,6,Disable power saving.,Reconnect device.,Update drivers.,Test another device.,Contact support.
+73,Email not updating,3,2,6,Check server settings.,Restart app.,Update client.,Try another device.,Contact support.
+74,Slow web browsing,4,1,8,Clear browser cache.,Switch browser.,Restart router.,Test speed.,Contact support.
+75,App crashes on start,5,1,8,Restart device.,Reinstall app.,Clear app cache.,Update app.,Contact support.
+76,Wi-Fi limited connectivity,1,1,9,Restart router.,Update router firmware.,Move closer.,Check for interference.,Contact support.
+77,Bluetooth audio quality poor,2,2,8,Check device battery.,Update drivers.,Reduce distance.,Test with another device.,Contact support.
+78,Email notification delay,3,1,7,Check app settings.,Update app.,Restart device.,Clear app cache.,Contact support.
+79,Slow app loading,5,1,8,Clear app cache.,Restart device.,Update app.,Reinstall app.,Contact support.
+80,Wi-Fi security breach,1,1,10,Change password.,Update router firmware.,Restart router.,Contact support.,Contact ISP.
+81,Bluetooth signal weak,2,1,7,Reduce distance.,Update drivers.,Restart devices.,Test another device.,Contact support.
+82,Email sync error,3,1,6,Check server settings.,Restart app.,Update client.,Try another device.,Contact support.
+83,Wi-Fi interference from neighbors,1,1,14,Change channel.,Update router firmware.,Use a different frequency band.,Contact ISP.,Contact support.
+84,App crashes randomly,5,1,8,Update app.,Clear app cache.,Reinstall app.,Restart device.,Contact support.
+85,Bluetooth connection drops,2,2,9,Check battery levels.,Reconnect device.,Update drivers.,Disable power saving.,Contact support.
+86,Email app freezing,3,2,7,Clear app cache.,Update app.,Restart app.,Check account settings.,Contact support.
+87,Slow web page render,4,1,10,Clear browser cache.,Switch browser.,Update drivers.,Check internet speed.,Contact support.
+88,Wi-Fi not recognized,1,1,13,Restart router.,Update firmware.,Move closer.,Check network settings.,Contact support.
+89,Bluetooth pairing issues,2,2,8,Restart devices.,Update drivers.,Forget and re-pair device.,Check for interference.,Contact support.
+90,Email not downloading attachments,3,1,9,Check file size.,Restart app.,Try another device.,Update app.,Contact support.
+91,Wi-Fi signal fluctuating,1,1,11,Move closer to router.,Check cables.,Update router firmware.,Test with another device.,Contact support.
+92,Bluetooth device not charging,2,1,7,Check battery levels.,Reconnect device.,Update drivers.,Test another charger.,Contact support.
+93,App interface glitching,5,1,6,Clear app cache.,Reinstall app.,Restart device.,Update app.,Contact support.
+94,Email sync delay,3,3,6,Check server settings.,Update client.,Restart app.,Try another device.,Contact support.
+95,Wi-Fi reconnect issue,1,1,9,Forget and reconnect.,Restart router.,Update router firmware.,Test another device.,Contact support.
+96,Slow Bluetooth connection,2,2,8,Check battery levels.,Update drivers.,Reduce distance.,Test with another device.,Contact support.
+97,Email draft not sent,3,1,8,Check server settings.,Restart app.,Update client.,Try another device.,Contact support.
+98,Wi-Fi not working on one device,1,1,10,Restart device.,Forget and reconnect.,Update router firmware.,Test with another device.,Contact support.
+99,Bluetooth not supported by device,2,1,7,Check device compatibility.,Update drivers.,Try another device.,Contact manufacturer.,Contact support.
+100,Email login issue,3,2,8,Check credentials.,Restart app.,Update client.,Try another device.,Contact support.
